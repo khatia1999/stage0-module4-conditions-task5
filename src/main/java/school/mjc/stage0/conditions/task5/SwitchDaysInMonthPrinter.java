@@ -12,22 +12,22 @@ public class SwitchDaysInMonthPrinter {
         case 10:
         case 12:
 
-            System.out.println("31 days");
+            System.out.println("31");
             break;
 
         case 2:
-            System.out.println("28 days");
+            System.out.println("28");
             break;
 
         case 4:
         case 6:
         case 9:
         case 11:
-            System.out.println("30 days");
+            System.out.println("30");
             break;
 
         default:
-            System.out.println("Please enter a number between 1 - 12");
+            System.out.println("wrong number!");
             break;
     }
 

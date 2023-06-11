@@ -4,10 +4,10 @@ public class LeapYearPrinter {
     public void isLeapYear(int year) {
 
         if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
-            System.out.println("Leap");
+            System.out.println("leap");
 
         } else {
-            System.out.println("Not leap");
+            System.out.println("not leap");
 
         }
         }
